@@ -21,9 +21,29 @@ public class Boucle1 {
 //            e.printStackTrace();
 //        }
 
-        try (Scanner scanner = new Scanner(System.in)) {
+//        try (Scanner scanner = new Scanner(System.in)) {
+//            Methode.pseudo();
+//
+//            System.out.print("valeur a decopter -> ");
+//            int value = scanner.nextInt();
+//
+//            while(true){
+//                value--;
+//                System.out.println(value);
+//                if(value == 0){
+//                    return;
+//                }
+//                Thread.sleep(200);
+//            }
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+
+        try (Scanner scanner = new Scanner(System.in);){
+
             Methode.pseudo();
-            System.out.println("tetetetete");
+
+            System.out.println();
         }
 
     }
